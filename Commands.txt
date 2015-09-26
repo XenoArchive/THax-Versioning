@@ -1,0 +1,123 @@
+TerraHax by Xenoxiluna(Nequamvita)
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = 
+Commands: 
+
+- Start all commands with a '.' no quotes.
+- brackets [ ] are not part of the command
+- Command triggers are all lower-case
+- Read "keybinds howto.txt" to learn how to keybind.
+
+.help			(Alias: .commands)	(Opens the Commands.txt in Notepad or your default .txt reader)
+.heal			(Alias: .h)
+.healthregen [num]	(Alias: .liferegen or .hpregen or .lr or .hr)
+.manaregen [num]	(Alias: .mr)
+.infrockets		(Alias: .infr) 	(Infinte rocket boots)
+.infrange		(Alias: .infr or .infreach)
+.depthmeter		(Alias: .dm)
+.watch			(Alias: .clock)
+.flippers
+.cloudinabottle		(Alias: .cloud or .ciab or .doublejump)
+.rocketboots		(Alias: .rb)
+.item [item name or ID]	(Alias: .i or .drop or .d)	(Auto drops the max stack)
+.deleteinv		(Alias: .clearinv or .eraseinv) (Erases your whole inventory apart from your toolbar)
+.ammo [num]					(Effects current item)
+.maxstack [num]		(Alias: .max) 		(Effects current item)
+.fill						(Effects current item, fills the item to the max stack)
+.butcherenpc		(Alias: .bnpc)		(Kills every hostile NPC)
+.butcherfnpc					(Kills every friendly NPC)
+.butcherall					(Kills every NPC, including friendly NPC's)
+.bloodmoon		(Alias: .blood or .bm)
+.goto [player name]				(Teleports you to that player *You can leave the player name field blank to use the last entered name (broken)*)
+.freecraft		(Alias: .nomaterials)	(Allows you to craft every item without the materials or tiles)
+.instantrespawn		(Alias: .ir)
+.placetile [tile id]	(Alias: .pt) 		*ID 0 (Dirt) doesn't place unless it's replacing a tile*
+.placewall [wall id]	(Alias: .pw)
+.destroytile		(Alias: .dt)
+.destroywall		(Alias: .dw)
+.removeliquid		(Alias: .rl)
+.editoff		(Alias: .eoff) 	(Turns off all place/destroy/remove/mask commands)
+.size [number]					(Sets the .placetile or wall and .destroytile or wall size)
+.noclip			(Alias: .nc)		(Turns off gravity and allows you to pass through tiles)
+.shine			(Acts as a shine potion)
+.off						(Turns off every command and player hack)
+.water [num 1 - 255]	(Water placed per block, ex. 100 = 1 block)
+.lava [num 1 - 255]	(same as water but for lava)
+.usetime [num]		(Alias: .ut or .attackspeed or .as)
+.autoreuse		(Alias: .auto" .ar) 	(Effects current item)
+.spectreboots           (same effect as rocketboots but blue. For now.)
+.players                (Lists the current players on the server in a UI along with there currently active item)
+.name  [name]                 (Name changes your current character)
+.damage [num]		(Alias: .dam) 		(Effects current item)
+.flashlight		(Alias: .torch or .fl) 	(Your mouse emmits light)
+.fullbright		(Alias: .bright or .light or .fb)	(This disables shadows)
+.home                   (Teleports you to your home location)
+.defence [num]		(Alias: .defense or .def or .armor or .armour) (Modifies your overall defense rating)
+.shootspeed [decimal]	(Alias: .sp) 		(Effects current item)
+.pickuprange [num]	(Alias: .pura)    (Allows you to pickup items from farther away)
+.infwings               (Alias: .iw)      (Infinite wings)
+.infammo		(Alias: .infa)		(Effects current item)
+.infhealth		(Alias: .infh)
+.infmana		(Alias: .infm)
+.health [num] 		(Alias: .hp or .life)	
+.mana [num] 
+.summon [NPC ID] [*Optional* Amount]	(Alias: .npc or .mob) 	(Summons the desired NPC at your cursor) !!!BTW, NPCs are client-side only*!!!
+.track                  (Allows the tracking of anyone regardless of the team they are on.)
+.prefix [ID or Name]    (Adds the defined prefix to the selected item)
+.day			*BUGGY* (This does not change the server time. Use on single player.)
+.night			*BUGGY* (This does not change the server time. Use on single player.)
+.create [name] [shootspeed] [ammotype]    *may have bugs* (Scorches custom item command.This does not create a literal custom item, but it does allow you to chage the properties of current items.)
+.anitime [num]		(Alias: .at) 		(Effects current item "animation time")
+.replacetile [tile ID]	(Alias: .rt) 		(Edits the masked tile ID)
+.masktile [tile ID]	(Alias: .mt) 		(Edits any tile but the masked tile ID)
+.maskwall [wall ID]	(Alias: .mw)		(Edits the masked wall ID) *bugged*
+.replacewall [wall ID]	(Alias: .rw)		(Edits any wall but the masked wall ID) *bugged*
+.maskoff		(Alias: .mask)		(Turns off all tile/wall masks)
+.rain [num 1 - 255]				(Makes it rain, 1 = Extremely light with no flood, 255 = flood (100 = 1 water block))
+.rainspeed [num]	(Alias: .rs) 		(Amount of frames per (rain drop * 10), default 30)
+.knockback [decimal's only]    (Alias: .kb)            (Effects current item)
+.destroy					(.destroytile + .destroywall together)
+.sethome					(Sets your home spawn point)
+.rainlava		(Alias: .lavarain)
+.grav                   	(Acts as an infinite gravity potion)
+.invis                  	(Acts as an infinite ivisibility potion)
+.maim [playername]      	(Kills a player[Doesnt work on tshock anymore])
+.maimall			(Kills all players[Doesnt work on tshock anymore])
+.invin				(Toggles invincibility[buggy on multiplayer])
+.pos                    	(Displays your current coordinates)
+.god                    	(Obvious)
+.itemprefix [prefix] [itemname] (Generates an item with the desired prefix)
+.bind [key] [command]-[command]-etc... (Bind a key to a command)
+.unbind [key]           	(Unbinds a key from a command)
+.listbinds              	(Lists all keybinds)
+.unbindall              	(Unbinds all keybinds)
+.speed [decimal or num] 	(Sets the movement speed of your char. .speed again to reset)
+.movecam			(Enables free camera movement)   
+.gotocam        		(teleports you to your camera)!!!ONLY USE WITH MOVECAM!!!
+.scale [num]			(Change the size of your item. Only effects your current item)
+.gotoprev       		(Teleports back to your previous location before teleportation)
+.gotomouse      		(Teleports you to your mouse)TIP: Use with movecam
+.backupinv 		(Alias: .bui)(Backs up your current inventory, armor, dyes, and equipment)
+.restoreinv		(Alias: .rui)(restores your backed up inventory, armor, dyes, and equipment)
+.say [text]           		(Says what you want in chat)
+.pickaxe [number]		(Alias: .pick) (Effects current item, 100 = 100%)
+.axe [number]			(Effects current item, 100 = 100%)
+.hammer [number]			(Effects current item, 100 = 100%)
+.waterwalking           (Alias: .ww)            (Allows you to walk on water)
+.cloneinv [player name]                         (Clones a players inventory to your character, also changes armor P.S. MAKE A BACKUP OF YOUR INVENTORY WITH .BACKUPINV)
+.softcore
+.mediumcore
+.hardcore 
+.nofalldamage
+.spelunker		(Alias: .spe .sl)
+.waterbreathing
+.showinvis
+.archery		(Alias: .arch .archery .archerypotion .archerypot)
+.maxsummons 		(Alias: .maxmobs .maxnpcs .maxspawns .maxenemies .maxmonsters) (Alters the maximum summons you may have at a given time)
+.spawnrate
+.crit [number]		(Adds to the crit chance)
+.maxminions [number]	(Modifies the maximum minion count)
+.invul			(Activates invulnerability)
+.inflifesteal		(Infinite Life Steal)
+.clonechar [player name]                         (Clones a players inventory, armor, dyes, and equipment to your character P.S. MAKE A BACKUP OF YOUR INVENTORY WITH .BACKUPINV)
+.nodebuffs		(Alias: .ndb)
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
